@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #202126;
+    color: #FFFFFF;
+    line-height: 1.8;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #C6BA6A;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Header Section */
+header {
+    padding: 30px 20px;
+    background-color: #202126;
+	
+}
+.header-section h1 {
+    font-size: 18px;  /* Smaller heading */
+}
+
+.header-section p {
+    font-size: 11px;  /* Smaller paragraph text */
+}
+
+
+
+.sub-headline {
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+/* VSL Section */
+
+.video-container iframe {
+{
+  margin: 0;
+  padding: 0px 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height for proper centering */
+    margin: 0; /* Remove any browser-added margin */
+    padding: 0;	
+}
+
+.video-container {
+    width: 100%;
+    max-width: 700px; /* Limit video width */
+    aspect-ratio: 16/9; /* Maintain video aspect ratio */
+    position: relative;
+	    margin: 0 auto; /* Centers the video horizontally */
+    padding-bottom: 0%; /* Maintains 16:9 aspect ratio */
+    height: 0; /* Prevents the video from expanding too far vertically */
+    overflow: hidden; /* Ensures no overflow of the video */
+    margin-top: 0px; /* Removes any unnecessary margin at the top */
+    margin-bottom: 10px; /* You can adjust this for space below the video */
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none; /* Optional: removes iframe border */
+}
+
+
+/* Calendly Section */
+.calendly {
+    background-color: #2C2E33;
+    padding: 50px 20px;
+}
+
+.calendly-container iframe {
+    border-radius: 8px;
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 50px 20px;
+}
+
+.benefit-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.benefit {
+    background-color: #C6BA6A;
+    color: #202126;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+}
+	
+/* Main Copy Section */
+.main-copy {
+    padding: 50px 20px;
+}
+
+.paragraph-section p {
+    margin: 0; /* Removes default margins for better control */
+    line-height: 1.6; /* Adjusts line height within paragraphs */
+    font-size: 20px; /* Adjust this value to make the font size bigger */
+    color: #fff; /* Optional: white text for dark backgrounds */
+}
+}
